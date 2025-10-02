@@ -7,6 +7,6 @@ public class Dice {
     //java.util.random = Don't know about this will ask later
 
     public int roll(){
-        return (int)(Math.random()*(6-1)+1);
+        return (int)(Math.random()*(6)+1);
     }
 }

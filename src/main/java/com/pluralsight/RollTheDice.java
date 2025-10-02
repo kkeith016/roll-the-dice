@@ -11,8 +11,6 @@ public class RollTheDice {
         int roll1, roll2;
 
         //dice counter
-
-
         int twoCounter = 0;
         int fourCounter = 0;
         int sixCounter = 0;
