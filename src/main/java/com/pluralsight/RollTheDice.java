@@ -24,6 +24,32 @@ public class RollTheDice {
             roll1 = dice.roll();
             roll2 = dice.roll();
 
+            int sum = roll1 + roll2;
+
+            //printing the rolls
+
+            System.out.println("Roll " + i + ": " + roll1 + " - " + roll2 + " Sum: " + sum);
+
+            //using a switch to check sums and put in the counters
+
+            switch(sum){
+                case 2:
+                    twoCounter++;
+                    break;
+                case 4:
+                    fourCounter++;
+                    break;
+                case 6:
+                    sixCounter++;
+                    break;
+                case 7:
+                    sevenCounter++;
+                    break;
+                    default:
+                        break;
+
+            }
+
 
 
 
