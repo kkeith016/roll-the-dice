@@ -58,5 +58,6 @@ public class RollTheDice {
         System.out.println("Number of 4s rolled: " + fourCounter);
         System.out.println("Number of 6s rolled: " + sixCounter);
         System.out.println("Number of 7s rolled: " + sevenCounter);
+
     }
 }
