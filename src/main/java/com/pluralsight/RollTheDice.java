@@ -8,7 +8,8 @@ public class RollTheDice {
         Dice dice = new Dice();
 
         //Vars to hold the rolls
-        int roll1, roll2;
+        int roll1 = 0;
+        int roll2 = 0;
 
         //dice counter
         int twoCounter = 0;
@@ -45,6 +46,7 @@ public class RollTheDice {
                     break;
                     default:
                         break;
+
 
             }
 
